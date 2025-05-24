@@ -25,18 +25,19 @@ Repositori ini berisi implementasi konsep _multithreading_ di Java berdasarkan d
 
 ## Struktur Direktori
 
-- **src/**  
-  - **kasus1/**  
-    - `SquareTask.java`  
-    - `AppRunCase1.java`  
-  - **kasus2/**  
-    - `Inventory.java`  
-    - `OrderProcessor.java`  
-    - `ReturnProcessor.java`  
-    - `AppRunCase2.java`
-- `.gitignore`  
-- `README.md`
-
+├── src/<br />
+│ ├── kasus1/
+│ │ ├── SquareTask.java # Kelas tugas menghitung kuadrat
+│ │ └── AppRunCase1.java # Entry point menjalankan 5 thread
+│ │
+│ └── kasus2/
+│ ├── Inventory.java # Model data stok produk
+│ ├── OrderProcessor.java # Thread untuk proses pembelian
+│ ├── ReturnProcessor.java # Thread untuk proses pengembalian
+│ └── AppRunCase2.java # Entry point dengan simulasi concurrent order
+│
+├── .gitignore
+└── README.md
 
 ---
 
