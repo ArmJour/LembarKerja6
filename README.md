@@ -47,4 +47,15 @@ Repositori ini berisi implementasi konsep _multithreading_ di Java berdasarkan d
    ```bash
    git clone https://github.com/username/nama-repo.git
    cd nama-repo
+2. **Compile kode Java**  
+   ```bash
+   javac -d out src/kasus1/*.java src/kasus2/*.java
+3. **Jalankan Studi Kasus 1**  
+   ```bash
+   java -cp out kasus1.AppRunCase1
+4. **Jalankan Studi Kasus 2**  
+   ```bash
+   java -cp out kasus2.AppRunCase2
+
+
 
