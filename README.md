@@ -1,2 +1,50 @@
-# LembarKerja6
-Implementasi konsep Thread pada Java melalui dua studi kasus: Paralelisasi tugas independen (menghitung kuadrat angka) dan sinkronisasi akses inventory toko online
+# Lembar Kerja 06 – Implementasi Thread di Java
+
+**Mata Kuliah**       : Pemrograman Lanjut (COM60024)  
+**Kelas**             : C  
+**Durasi Pengerjaan** : 3 Hari  
+**Tanggal Pengumpulan**: 25 Mei 2025, 23:59 WIB  
+
+---
+
+## Deskripsi Singkat
+
+Repositori ini berisi implementasi konsep _multithreading_ di Java berdasarkan dua studi kasus:
+
+1. **Studi Kasus 1** – *Task Parallelism*  
+   - Menjalankan 5 tugas independen (menghitung kuadrat angka) secara paralel  
+   - Tiap tugas dijalankan dalam thread terpisah  
+   - Tidak ada kebutuhan sinkronisasi karena tidak ada _shared resource_  
+
+2. **Studi Kasus 2** – *Resource Synchronization*  
+   - Sistem inventory toko online yang mengelola penambahan dan pengurangan stok  
+   - Menangani kondisi race condition dan menjaga konsistensi data  
+   - Menggunakan mekanisme sinkronisasi (`synchronized`, `Locks`, atau sejenisnya)
+
+---
+
+## Struktur Direktori
+├── src/
+│ ├── kasus1/
+│ │ ├── SquareTask.java # Kelas tugas menghitung kuadrat
+│ │ └── AppRunCase1.java # Entry point menjalankan 5 thread
+│ │
+│ └── kasus2/
+│ ├── Inventory.java # Model data stok produk
+│ ├── OrderProcessor.java # Thread untuk proses pembelian
+│ ├── ReturnProcessor.java # Thread untuk proses pengembalian
+│ └── AppRunCase2.java # Entry point dengan simulasi concurrent order
+│
+├── .gitignore
+└── README.md
+
+
+---
+
+## Cara Menjalankan
+
+1. **Clone repositori**  
+   ```bash
+   git clone https://github.com/username/nama-repo.git
+   cd nama-repo
+
