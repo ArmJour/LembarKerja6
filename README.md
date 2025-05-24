@@ -24,6 +24,7 @@ Repositori ini berisi implementasi konsep _multithreading_ di Java berdasarkan d
 ---
 
 ## Struktur Direktori
+
 ├── src/
 │ ├── kasus1/
 │ │ ├── SquareTask.java # Kelas tugas menghitung kuadrat
