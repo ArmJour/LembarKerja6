@@ -41,7 +41,7 @@ Repositori ini berisi implementasi konsep _multithreading_ di Java berdasarkan d
 
 ---
 
-You can find the source code in the [src]
+You can find the source code in the [src](https://github.com/ArmJour/LembarKerja6/tree/main/LembarKerja6/src)
 
 
 
