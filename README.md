@@ -42,7 +42,7 @@ Repositori ini berisi implementasi konsep _multithreading_ di Java berdasarkan d
 ---
 
 
-   java -cp out kasus2.AppRunCase2
+
 
 
 
