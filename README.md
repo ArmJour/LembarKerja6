@@ -31,10 +31,14 @@ Repositori ini berisi implementasi konsep _multithreading_ di Java berdasarkan d
 │ │ └── AppRunCase1.java # Entry point menjalankan 5 thread<br />
 │ │<br />
 │ └── Kasus2/<br />
-│ ├── Product.java # Class dasar<br />
-│ ├── Inventory.java # Model data stok produk<br />
+│ ├── AppRun.java # Entry point dengan simulasi concurrent order<br />
 │ ├── GUIManager.java # Manager GUI memakai javax.swing<br />
-│ └── AppRun.java # Entry point dengan simulasi concurrent order<br />
+│ ├── Inventory.java # Model data stok produk<br />
+│ ├── Order.java # Mengatur proses pemesanan<br />
+│ ├── Product.java # Class dasar<br />
+│ ├── Return.java # Mengatur proses pengembalianr<br />
+│ ├── StockManager.java # Manager Stock<br />
+│ └── StockUpdater.java # Menggunakan thread menjalankan return dan order<br />
 │<br />
 ├── .gitignore<br />
 └── README.md<br />
